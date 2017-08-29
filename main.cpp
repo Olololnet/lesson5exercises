@@ -132,7 +132,6 @@ void Exercise3()
     PrintReverseNumber(iInput);
 }
 
-
 int PowConverter(int iBaseNum, int iPower, int iBaseCopy)
 {
     if (iPower > 1)
@@ -145,7 +144,6 @@ int PowConverter(int iBaseNum, int iPower, int iBaseCopy)
 
     return PowConverter(iBaseNum, iPower, iBaseCopy);
 }
-
 
 int CustomPow(int iBaseNum, int iPower)
 {
@@ -162,7 +160,6 @@ void Exercise2()
     std::cout << CustomPow(2, 3);
 }
 
-
 void PrintEvenIndex(int* szIntArray, int iCurrentElement)
 {
     if (iCurrentElement < 0)
@@ -173,7 +170,6 @@ void PrintEvenIndex(int* szIntArray, int iCurrentElement)
 
     PrintEvenIndex(szIntArray, iCurrentElement - 1);
 }
-
 
 void Exercise1()
 {
@@ -234,7 +230,6 @@ void ExerciseOnLesson()
 
     delete[] szIntArrayFull;
 }
-
 
 int main()
 {
